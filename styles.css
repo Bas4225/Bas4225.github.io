@@ -1,0 +1,222 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    background-color: #F4F4F4;;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}
+
+nav {
+    width: 100%;
+    height: 62px;
+    background-color: #fff;
+    position: fixed;
+}
+
+nav p {
+    font-family: arial;
+    color: #222;
+    font-size: 25px;
+    line-height: 55px;
+    float: left;
+    padding: 3px 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav a:hover {
+    color: lightcoral;
+}
+
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #222;
+    font-size: 18px;
+    padding: 21px 25px;
+    text-decoration: none; 
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul {
+    display: block ;
+}
+
+
+nav ul li ul li a {
+    padding: 3px 12px;
+}
+
+nav ul li ul li { 
+    width: 180px;
+    border-radius: 4px;
+ 
+}
+
+nav ul li ul li a:hover {
+    background-color: #f3f3f3; 
+}
+
+#home-a {
+    text-decoration: underline;
+}
+
+#home-img1{
+    margin-left: 20px;
+    margin-top: 65px;
+    float: left;
+}
+
+#content #p-1 {
+    float: left;
+    max-width: 400px;
+    padding-left: 20px;
+    margin-top: 65px;
+}
+
+.column {
+    min-width: 259px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#footer a {
+    text-decoration: underline;
+    color: #5F5F5F;
+}
+
+#footer a:hover {
+    color: lightcoral;
+}
+
+#footer {
+    background-color: white;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px
+}
+
+#ad {
+    max-width: 150px;
+    border: 2px solid black;
+    float: right;
+    background-color: white;
+    margin: 65px;
+    padding: 10px;
+}
+
+#ad a {
+    font-weight: bold;
+    color: black;
+}
+
+#ad a:hover {
+    color: lightcoral;
+}
+
+
+
+
+
+#mail {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 50px;
+    min-height: 50px;
+    background-color: #EEEEEE;
+}
+
+#content #mail a {
+    font-weight: bold;
+    color: #5F5F5F;
+    margin-right: 20px;
+}
+
+#content #mail a:hover {
+    color: lightcoral;
+}
+
+#tel {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    min-height: 100px;
+    background-color: #EEEEEE;
+}
+
+
+#tel p {
+    margin-top: 10px;
+    margin-right: 260px;
+}
+
+#adress {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    min-height: 100px;
+    background-color: #EEEEEE;
+}
+
+#adress p {
+    font-weight: bold;
+}

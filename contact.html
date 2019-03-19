@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <div id="container">
+            <div id="main">
+                <header>
+        <nav>
+        <p>Website naam</p>
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            
+            
+            <li id="home-a"><a href="#">Contact <img src="dropdown%20header.svg"></a>
+                <ul>
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">Tel</a></li>
+                    <li><a href="#">Adress</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Info</a></li>
+        </ul>
+    </nav>
+    </header>
+        
+    <content id="content">
+        <br>
+        <div id="mail">
+        <p><a href="mailto:udnfu@hufe.com">E-mail</a> (You will be redirected to mail)</p>
+        </div>
+        
+        <div id="tel">
+            <img id="show-picture" onclick="swapImage()" src="tel..png" width="300" height="85"/>
+            <script>
+            function swapImage() {
+                var imageDisplayed = document.getElementById('show-picture');
+                if (imageDisplayed.src.match("tel..png")) {
+                imageDisplayed.src = "nummer.png";
+                }
+                else {
+                    imageDisplayed.src = "tel..png";
+                }
+            }
+            </script>
+            <p><--Press to reveal</p>
+        </div>
+        
+        <div id="adress">        
+        <p>Adress:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39078.28049054907!2d4.5080617011737285!3d52.2544166696656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5c22533e0f23b%3A0xde2b34b939334982!2sLisse!5e0!3m2!1snl!2snl!4v1552905386805" width="400" height="310" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+            
+    </content>           
+            
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="footer-container">
+                <div class="column">
+        <h4>My Links</h4>
+        <p>
+            <br>
+            <a href="#">Facebook</a><br>
+            <a href="#">Twitter</a>
+        </p>
+            </div>
+            <div class="column">
+                <h4>My story in short</h4>
+                <br>
+                <p>Hi there! I like programming<br> and espacially web development!</p>
+            </div>
+            </div>
+        </footer>
+        
+    </body>
+        
+    
+</html>
+    
